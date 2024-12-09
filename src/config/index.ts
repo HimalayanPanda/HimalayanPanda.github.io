@@ -1,23 +1,21 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Birendra Pandey — Senior VP at CNI",
+  author: "Birendra Raj Pandey",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Managing director of Nepal Adarsha Nirman Company, Mr Pandey has been a leader in the private sector for x number of years...",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/birendra-small.jpg",
   navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
+    { text: "Experience", href: "#experience" },
+    { text: "Awards", href: "#projects" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/birendra-pandey-ab745114/" },
+    { text: "Company Website", href: "https://www.nepaladarsha.com/" },
+    { text: "CNI Website", href: "https://cni.org.np/" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,41 +23,36 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Birendra Pandey",
+    specialty: "Senior VP at the Confederation of Nepalese Industries (CNI)",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Mr. Birendra Raj Pandey is a visionary leader with a proven track record in business strategy and organizational growth. With a deep commitment to innovation and community development, he has consistently delivered impactful results across various industries.",
+    email: "birendra.pandey@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
-      summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
-      ],
-    },
-    {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
-      summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
-      ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
+      company: "Confederation of Nepalese Industries (CNI)",
+      position: "Vice President",
+      startDate: "Mar 2019",
+      endDate: "Present",
       summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+        "During my time at the Confederation of Nepalese Industries (CNI), I focused on promoting industrial growth and building strong partnerships between businesses and the government. I worked on initiatives to attract investments, improve policies, and make it easier to do business in Nepal. My goal was to support innovation and sustainable development, contributing to a stronger industrial sector in the country.",
+    },
+    {
+      company: "Nepal Adarsha Nirman Company (NANC)",
+      position: "Managing Director",
+      startDate: "May 2011",
+      endDate: "Present",
+      summary:
+        "During my time at Nepal Adarsha Nirman Company (NANC), I focused on leading innovative civil engineering projects that contributed to Nepal’s infrastructure development. I managed key projects involving roads, bridges, and urban construction, ensuring they were completed efficiently and met high-quality standards. By fostering a culture of teamwork and excellence, I helped establish NANC as a trusted name in the civil engineering sector, delivering sustainable and impactful solutions for the country’s development."
+    },
+    {
+      company: "International Federation of Asian and Western Pacific Contractors' Associations (IFAWPCA)",
+      position: "Secretary General",
+      startDate: "Nov 2022",
+      endDate: "Nov 2023",
+      summary:
+        "During my tenure as Secretary General of the International Federation of Asian and Western Pacific Contractors’ Associations (IFAWPCA), I worked to strengthen collaboration among member countries and advance the interests of the construction industry on a global scale. I facilitated international conferences and networking opportunities, encouraging knowledge sharing and fostering partnerships between contractors across regions. My focus was on promoting innovation, sustainable construction practices, and mutual growth, while ensuring that IFAWPCA remained a platform for addressing key industry challenges and opportunities."
     },
   ],
   projects: [
@@ -86,12 +79,8 @@ export const SITE_CONTENT: SiteContent = {
     },
   ],
   about: {
-    description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
-    `,
-    image: "/alejandro-big.jpg",
+    description: `Hello, I’m Birendra Raj Pandey, a passionate leader and strategist dedicated to driving growth and making a positive difference in the world. With years of experience in business development and organizational leadership, I thrive on turning challenges into opportunities. My journey has been fueled by a deep commitment to fostering innovation, empowering teams, and contributing to meaningful change in the community. Beyond work, I enjoy exploring new ideas, connecting with people, and sharing my learnings to inspire others.`,
+    image: "/birendra-big.jpg",
   },
 };
 
